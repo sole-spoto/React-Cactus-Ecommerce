@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 350px;
 height: 100%;
-background: #ffc500;
+background: #546133;
 display: grid;
 align-items: center;
 top: 0;
@@ -21,7 +21,7 @@ right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
-color: #000;
+color: #fff;
 `;
 
 export const Icon = styled.div`
@@ -54,11 +54,11 @@ font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
-color: #000;
+color: #fff;
 cursor: pointer;
 
 &:hover {
-    color: #e31837;
+    color: #ffc500;
     transition: 0.2s ease-in-out;
 }
 `;
@@ -69,7 +69,7 @@ justify-content: center;
 `;
 
 export const SidebarRoute = styled(Link)`
-background: #e31837;
+background: #FA5B20;
 white-space: nowrap;
 padding: 16px 64px;
 color: #fff;
@@ -82,7 +82,7 @@ text-decoration: none;
 
 &:hover {
     transition: 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #ffc500;
+    color: #000;
 }
 `;

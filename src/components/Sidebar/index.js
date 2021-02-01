@@ -8,12 +8,12 @@ const Sidebar = ({isOpen, toggle}) => {
                 <CloseIcon/>
             </Icon>
             <SidebarMenu>
-                <SidebarLink to="/">Pizzas</SidebarLink>
-                <SidebarLink to="/">Desserts</SidebarLink>
-                <SidebarLink to="/">Full Menu</SidebarLink>
+                <SidebarLink to="/">Cactus</SidebarLink>
+                <SidebarLink to="/">Other Plants</SidebarLink>
+                <SidebarLink to="/">All Products</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/">Order Now</SidebarRoute>
+                <SidebarRoute to="/">Buy Now</SidebarRoute>
             </SideBtnWrap>
         </SidebarContainer>
     )

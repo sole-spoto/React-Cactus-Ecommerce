@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaPizzaSlice } from 'react-icons/fa';
+import { GiCactusPot } from 'react-icons/gi';
 
 export const Nav = styled.nav`
 background: transparent;
@@ -12,7 +12,8 @@ font-weight: 700;
 
 export const NavLink = styled(Link)`
 color: #fff;
-font-size: 2rem;
+text-shadow: 2px 2px #000;
+font-size: 2.3rem;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -32,6 +33,7 @@ top: 0;
 right: 0;
 cursor: pointer;
 color: #fff;
+text-shadow: 3px 3px #000;
 
 p {
     transform: translate(-175%, 100%);
@@ -39,7 +41,7 @@ p {
 }
 `;
 
-export const Bars = styled(FaPizzaSlice)`
+export const Bars = styled(GiCactusPot)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
 `;

@@ -1,63 +1,63 @@
 import product1 from '../../images/product-1.jpg';
 import product2 from '../../images/product-2.jpg';
 import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import plant1 from '../../images/plant1.jpg';
+import plant2 from '../../images/plant2.jpg';
+import plant3 from '../../images/plant3.jpg';
 
 export const productData = [
 {
     img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
-    desc: 'Marinara sauce, basil, italian sausage, roma tomatoes, olives, ans pesto',
-    price: '$19.99',
+    alt: 'Pilosocereus pachycladus',
+    name: 'Blue Columnar Cactus',
+    desc: 'This Cactus brings a blue shade to your plant colour palette.',
+    price: '$29',
     button: 'Add to Cart'
 },
 {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
-    desc: 'Marinara sauce, basil, italian sausage, roma tomatoes, olives, ans pesto',
-    price: '$16.99',
+    alt: 'Echinopsis eyriesii',
+    name: 'Echinopsis eyriesii',
+    desc: 'Very popular large cactus. It can grow a huge nocturnal flower.',
+    price: '$64',
     button: 'Add to Cart'
 },
 {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
-    desc: 'Marinara sauce, basil, italian sausage, roma tomatoes, olives, ans pesto',
-    price: '$14.99',
+    alt: 'Cylindropuntia fulgida',
+    name: 'Boxing-glove cactus',
+    desc: 'Can consist of varying proportions and shapes.',
+    price: '$23',
     button: 'Add to Cart'
 }
 ];
 
 export const productDataTwo = [
 {
-    img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    img: plant1,
+    alt: 'Ficus lyrata ',
+    name: 'Fiddle-leaf fig',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
+      'Native to Africa. In colder climates, typically grows to 2-10\' tall. It is grown in the tropics as an ornamental shade tree.',
+    price: '$76',
     button: 'Add to Cart'
   },
   {
-    img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    img: plant2,
+    alt: 'Dracaena fragrans',
+    name: 'Fragrant dracaena',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-    price: '$12.99',
+      'Grown both indoors and outdoors. It can reaches a height of feet indoors, and has a bushy tree type of look. ',
+    price: '$62',
     button: 'Add to Cart'
   },
   {
-    img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
+    img: plant3,
+    alt: 'Ficus elastica',
+    name: 'Rubberplant',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
+      'The leaves are oblong to oval and in various colors of dark green, deep maroon or marked with yellow, cream, pink or white.',
+    price: '$43',
     button: 'Add to Cart'
   }
 ];
